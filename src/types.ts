@@ -1,22 +1,23 @@
 interface ParsedRequest {
-    method: string;
-    path: string;
-    version: string;
-    headers: Record<string, string>;
-    body: string;
+  method: string;
+  path: string;
+  version: string;
+  headers: Record<string, string>;
+  body: string;
 }
 
 interface BuiltResponse {
-    raw: Buffer;
-    statusCode: number;
-    contentLength: number;
+  raw: Buffer;
+  statusCode: number;
+  contentLength: number;
 }
 
 interface CacheEntry {
-    content: Buffer;
-    size: number;
-    mtime: number;
-    contentType: string;
+  content: Buffer;
+  size: number;
+  mtime: number;
+  contentType: string;
 }
 
-export {ParsedRequest, BuiltResponse, CacheEntry};
+export { ParsedRequest, BuiltResponse, CacheEntry };
+
