@@ -8,7 +8,7 @@ Minimal HTTP server in Node.js/TypeScript. Serves files from the current directo
 npx tsx src/server.ts [port]
 ```
 
-Default port is 8000.
+Default port is 3000.
 
 ## Features
 
