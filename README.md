@@ -5,7 +5,7 @@ Minimal HTTP server in Node.js/TypeScript. Serves files from the current directo
 ## Usage
 
 ```bash
-node src/server.ts [port]
+npx tsx src/server.ts [port]
 ```
 
 Default port is 8000.
